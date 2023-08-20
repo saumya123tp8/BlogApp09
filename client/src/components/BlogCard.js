@@ -45,7 +45,7 @@ export default function BlogCard({
     );
     if (isConfirmed) {
       try {
-        const { data } = await axios.delete(`/api/v1/blog/delete-blog/${id}`);
+        const { data } = await axios.delete(`https://blogapp-9vhq.onrender.com/api/v1/blog/delete-blog/${id}`);
         if (data?.success) {
           toast.success("blog deleted successfully");
           // alert('blog deleted successfully');
@@ -75,7 +75,7 @@ export default function BlogCard({
     try {
       // const bloglike=await axios.
       const response = await axios.post(
-        `/api/v1/blog/like-blog/${id}/${userid}`
+        `https://blogapp-9vhq.onrender.com/api/v1/blog/like-blog/${id}/${userid}`
       );
       console.log(response?.data);
       if (response?.data?.success) {
