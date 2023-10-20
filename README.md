@@ -9,7 +9,7 @@ In my Ooops Post project I have created maily one main flow or implementation
       There is many features regards user (eg. add one or many post, keep a track of post liked by his/her and also posted by them .
       You can register into this application for test purpose .
 # Deployed link for demo
-I have deployed this project on cyclic.
+I have deployed this project on netlify.
 Link : https://zesty-beijinho-26c5e3.netlify.app/blogs
 
 ### Start Development
