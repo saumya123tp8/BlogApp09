@@ -1,5 +1,4 @@
 # Ooops Post
-# A blog app 
 # overview
 It is a basiclly a blog app project, where a user (only authenticate user ) can post any social activity and also read alll activity posted by others.
 User also can edit update their post, he/she can like and comment on the post of other users
